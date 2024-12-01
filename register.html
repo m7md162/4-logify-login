@@ -21,15 +21,14 @@
 
     <div class="container">
       <div class="signin-welcome">
-        <div >
+        <div>
           <p class="welcome">welcome to <span> my page</span></p>
           <h2>sign up</h2>
         </div>
 
         <p class="new-user">
-         already have an account ? <a href="index.html">login in</a>
+          already have an account ? <a href="index.html">login in</a>
         </p>
-
       </div>
       <div class="form">
         <form action="#">
@@ -43,24 +42,28 @@
             required
           />
 
-          <div class="user-inf">
+          <div class="row">
+            <div class="user-inf">
+              <label for="user-name">user name</label>
+              <input
+                type="text"
+                name="user name"
+                id="user-name"
+                placeholder="user name"
+                required
+              />
+            </div>
 
-            <label for="user-name">user name</label>
-          <input
-            type="text"
-            name="user name"
-            id="user-name"
-            placeholder="user name"
-            required>
-
-            <label for="contact-num">contact number</label>
-          <input
-            type="text"
-            name="contact-number"
-            id="contact-num"
-            placeholder="contact number"
-            required>
-
+            <div class="user-inf">
+              <label for="contact-num">contact number</label>
+              <input
+                type="text"
+                name="contact-number"
+                id="contact-num"
+                placeholder="contact number"
+                required
+              />
+            </div>
           </div>
 
           <label for="password">enter your password</label>
