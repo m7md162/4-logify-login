@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="assets/stayles/register.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">your logo</a>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="signin-welcome">
+        <div >
+          <p class="welcome">welcome to <span> my page</span></p>
+          <h2>sign up</h2>
+        </div>
+
+        <p class="new-user">
+         already have an account ? <a href="index.html">login in</a>
+        </p>
+
+      </div>
+      <div class="form">
+        <form action="#">
+          <label for="meil">enter your email address</label>
+          <input
+            type="email"
+            name="email"
+            id="mail"
+            placeholder="enter your email address"
+            autofocus
+            required
+          />
+
+          <div class="user-inf">
+
+            <label for="user-name">user name</label>
+          <input
+            type="text"
+            name="user name"
+            id="user-name"
+            placeholder="user name"
+            required>
+
+            <label for="contact-num">contact number</label>
+          <input
+            type="text"
+            name="contact-number"
+            id="contact-num"
+            placeholder="contact number"
+            required>
+
+          </div>
+
+          <label for="password">enter your password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="enter your password"
+            required
+          />
+          <input type="submit" value="sign in" class="btn" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
